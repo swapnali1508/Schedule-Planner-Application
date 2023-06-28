@@ -1,0 +1,85 @@
+1) CURD operations
+2) Filters and Sorting
+3) Authentication 
+   a) Register
+   b) Login 
+   c) Gmail Verification
+   d) Forgot Password 
+   e) Session Based Authentication 
+
+5) Server Deployment 
+6) Payment gateway Integration
+
+
+migration 
+make migration
+data base me table create
+
+
+insert data
+
+object =Modelname.objects,create(colname=value,colname=value)
+object.save()
+
+for registration we are going to insert data of the user Info
+
+
+validation 
+
+all fields are mendatory
+
+
+Authentication
+
+select * from auth_user where username=un and password=upass
+e.g
+user.object.filter(username=un && password=upass)
+
+
+check username already exist or not
+use filter
+len check
+usrname does'nt exist please register
+
+
+login:(request,userfunction)
+store the the id of Authenticated user into session
+
+to fetch id store in session in any 
+
+
+
+========================================
+
+types of request
+
+get ===== to fetch the data
+post======insert
+delete=====delete
+put/patch=======update
+put======complete update
+patch=====partial update
+
+
+
+=============================================
+
+filter
+
+1)cat 
+2)status 
+3)date filter
+
+
+order by date
+===========================
+
+select * from todoapp_task where uid=request.user.id order by enddate
+
+
+
+
+
+apppassword:
+
+gnncuanscnbjuctw
